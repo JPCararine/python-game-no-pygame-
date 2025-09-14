@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 
 
 
@@ -81,7 +81,6 @@ spawn_zones = [
 
 
 class Hero:
-    """ Controla o jogador, incluindo movimento, ataques e animações. """
     def __init__(self, idle_frames, walk_frames, attack_frames, idle_left_frames, walk_left_frames, attack_left_frames, die_frames, die_left_frames, pos):
         
         self.idle_frames, self.walk_frames, self.attack_frames = idle_frames, walk_frames, attack_frames
@@ -227,7 +226,6 @@ class Hero:
 
 
 class Enemy:
-    """ Controla os inimigos, incluindo IA de patrulha, perseguição e separação. """
     def __init__(self, idle_left_frames, walk_left_frames, attack_left_frames, idle_right_frames, walk_right_frames, attack_right_frames, pos):
         
         self.idle_left_frames, self.walk_left_frames, self.attack_left_frames = idle_left_frames, walk_left_frames, attack_left_frames
