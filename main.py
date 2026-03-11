@@ -585,6 +585,7 @@ def set_game_state(state):
     is_paused = False
     game_state = state
     update_all_volumes()
+    print("Hello, World!")
 
 
 update_all_volumes()
